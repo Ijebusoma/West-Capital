@@ -1,0 +1,65 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #8b0000;
+  font-family: Arial;
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+}
+.west {
+  display: inline-block;
+  font-size: 20px;
+  left: 10px;
+}
+.container {
+  margin-left: 150px;
+}
+.container-2 {
+  margin-left: 50px;
+}
+.show-on-hover:hover > ul.dropdown-menu {
+  display: block;
+}
+.newsletter {
+  padding: 80px 0;
+  background: #f2f2f2;
+}
+
+.newsletter .content {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+.newsletter .content h2 {
+  color: #243c4f;
+  margin-bottom: 40px;
+}
+.newsletter .content .form-control {
+  height: 50px;
+  border-color: #ffffff;
+  border-radius: 0;
+}
+.newsletter .content.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #243c4f;
+}
+.newsletter .content .btn {
+  min-height: 50px;
+  border-radius: 0;
+  background: #243c4f;
+  color: #fff;
+  font-weight: 600;
+}

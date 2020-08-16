@@ -1,3 +1,4 @@
+<?php include 'connect.php' ?>
 <link
   href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"
   rel="stylesheet"
@@ -12,23 +13,16 @@
     <title>West Capital Finance</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <?php include 'assets.php'; ?>
   </head>
   <body>
-    <div class="navbar">
-      <h3 class="west">West Capital Finance(with log)</h3>
-      <a href="signin.php">Sign up</a>
-      <a href="#">Online Banking</a>
-    </div>
+   
+   <?php include 'nav.php'; ?>
+
+
     <div class="container-2">
       <div class="row">
-        <p class="lead">Today is Saturday November 2008</p>
+        <p class="lead">Today is <?php echo date("l, M d, Y") ?></p>
         <div class="btn-group show-on-hover">
           <button
             type="button"
